@@ -17,8 +17,14 @@ function bindDragEvent() {
   }).on('dragover', (event) => {
     event.originalEvent.preventDefault();
   });
+
+  $('.area-container').draggable({ snap: true });
+
+  $('.area-tooltip span').on('click', (event) => {
+    alert(event.target.dataset['command']);
+  });
 }
 
-var ReportChart = {};
-var ReportFilter = {};
-var ReportDecoration = {};
+let ReportChart = {};
+let ReportFilter = {};
+let ReportDecoration = {};

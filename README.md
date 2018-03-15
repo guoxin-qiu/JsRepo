@@ -15,3 +15,4 @@
     - https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
 - [ICONO DEMO](https://codepen.io/saeedalipoor/pen/fgiwK)
 - [LESS](http://lesscss.cn/)
+- [TypeScript Types](https://www.npmjs.com/~types)
