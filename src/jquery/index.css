@@ -1,0 +1,102 @@
+.HolyGrail {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.HolyGrail-header {
+    flex: none;
+    text-align: center;
+    background: wheat;
+}
+
+.HolyGrail-body {
+    display: flex;
+    flex: 1;
+}
+
+.HolyGrail-content {
+    flex: 1;
+    /* padding: 1em; */
+    /* overflow-y: auto; */
+}
+
+.HolyGrail-content * {
+    flex-direction: row;
+}
+
+.HolyGrail-aside {
+    flex: 0 0 12em;
+    padding: 1em;
+    border-radius: 3px;
+    background: hsla(31, 15%, 50%, .1);
+    text-align: center;
+}
+
+.HolyGrail-nav {
+    width: 60px;
+    display: flex;
+    flex-flow: column;
+    background: #706e70;
+    text-align: center;
+    order: -1;
+}
+
+.HolyGrail-nav .logo {
+    height: 30px;
+}
+
+.HolyGrail-nav div {
+    margin-top: 25px;
+}
+
+.HolyGrail-footer {
+    flex: none;
+    text-align: center;
+    padding: 1.5em 0;
+    background: lightblue;
+}
+
+.toolbar-pannel {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+
+.toolbar {
+    display: flex;
+    flex: 1;
+}
+
+.toolbar img {
+    height: 26px;
+    cursor: move;
+    margin: 8px 5px 5px 5px;
+}
+
+.savebox {
+    display: flex;
+}
+
+.savebox div {
+    padding: 5px;
+}
+
+.report-pannel {
+    height: 100%;
+    overflow: auto;
+}
+
+/** bootstrap rewrite start **/
+
+.btn {
+    padding: 4px 8px;
+}
+
+.btn-primary {
+    background-color: #706E70;
+    border-color: #706E70;
+}
+
+/** bootstrap rewrite end **/

@@ -8,3 +8,10 @@
 
 ### References
 - [jQuery with TypeScript](http://www.c-sharpcorner.com/article/typescript-with-jquery/)
+- Layout with Flex
+    - http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+    - http://www.ruanyifeng.com/blog/2015/07/flex-examples.html
+    - https://davidwalsh.name/flexbox-dice
+    - https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
+- [ICONO DEMO](https://codepen.io/saeedalipoor/pen/fgiwK)
+- [LESS](http://lesscss.cn/)
