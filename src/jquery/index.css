@@ -93,6 +93,12 @@
     flex-flow: row;
     width: 300px;
     height: 160px;
+    background-color: gainsboro;
+    z-index: 98;
+}
+
+.area-container:hover{
+    z-index: 99;
 }
 
 .area-tooltip {
